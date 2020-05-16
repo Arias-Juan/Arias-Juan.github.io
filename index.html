@@ -53,7 +53,7 @@
         <p>Programador Inicial</p>
     </section>
     <section class="container">
-        <h2 class="display-4 text-center ">Sobre Mi</h2>
+        <h2 class="display-4 text-center " id="SobreMi">Sobre Mi</h2>
         <article class="shadow p-3 mb-5 bg-white rounded">
             <h3>Información Basica</h3>
             <hr>
@@ -73,7 +73,7 @@
                 quo veritatis quibusdam. Reiciendis, doloremque cupiditate! Fuga.</p>
         </article>
         <hr>
-        <h2 class="display-4 text-center ">Experiencia Laboral</h2>
+        <h2 class="display-4 text-center" id="ExperienciaLaboral">Experiencia Laboral</h2>
         <article>
             <div class="card mb-3" style="100%">
                 <div class="row no-gutters">
@@ -273,12 +273,101 @@
     </section>
     <h2 class="display-4 text-center" id="Portfolio">Portfolio</h2>
     <section class="container">
-
-
-
+        <div id="multi-item-example" class="carousel slide carousel-multi-item shadow" data-ride="carousel">
+            <div class="controls-top text-center">
+                <a class="btn-floating btn-light" href="#multi-item-example" data-slide="prev"><i
+                        class="fas fa-chevron-left fa-2x"></i></a>
+                <a class="btn-floating btn-light" href="#multi-item-example" data-slide="next"><i
+                        class="fas fa-chevron-right fa-2x"></i></a>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!--Primer slide-->
+                <div class="carousel-item active">
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-HTML.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Primera WEB HTML/CSS</h4>
+                                <p class="card-text">En este caso use solamente HTML y CSS para hacer el primer front de
+                                    una pagina web aun sin funcionalidades avanzadas.</p>
+                                <a class="btn btn-outline-dark" href="https://affectionate-montalcini-019486.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-Galeria.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Galeria Flexbox</h4>
+                                <p class="card-text">Una galeria realizada con el atributo Flexbox y css, la cual es responsive por medio del uso de Medias.</p>
+                                <a class="btn btn-outline-dark" href="https://objective-panini-cad0c1.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-Flexbox.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Ejemplos Flexbox</h4>
+                                <p class="card-text">Demostracion del correcto uso del atributo de Flexbox por medio de css y los atributos flex.</p>
+                                <a class="btn btn-outline-dark" href="https://hardcore-wing-f8239b.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Segundo slide-->
+                <div class="carousel-item">
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-Galeria-BS.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Galeria Bootstrap</h4>
+                                <p class="card-text">Realizacion de la galeria integramente con el uso de Bootstrap la cual demuestra el correcto uso del framework.</p>
+                                <a class="btn btn-outline-dark" href="https://serene-nightingale-40997e.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-Panaderia.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Panaderia Cocu</h4>
+                                <p class="card-text">Se realizo el front de una galeria, aun sin funcionalidades avanzadas, con el uso de css y bootstrap.</p>
+                                <a class="btn btn-outline-dark" href="https://panaderia-arias.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="img/Card-Robotica.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Robotica Educativa</h4>
+                                <p class="card-text">Trabajo en Equipo el cual resulto un blog con diferentes accesos, aun en proceso al no tener funcionalidades especificadas.</p>
+                                <a class="btn btn-outline-dark" href="https://roboticaeducativa.netlify.app" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
     </section>
-
-
 
     <footer class="bg-dark text-light py-4">
         <div class="container text-center">
